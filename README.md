@@ -6,5 +6,9 @@ Derived from the boards of [Ralph S Bacon](https://github.com/RalphBacon), [Gadg
 - Watch [ATTiny85 Fuse Resetter with Arduino](https://www.youtube.com/watch?v=JskwC4bhgx4) and [How to Program Micronucleus Bootloader on ATTiny85 and Digispark](https://www.youtube.com/watch?v=RlscDz5JCcI&list=RDCMUCwiKHTegfDe33K5wnmyULog&index=4)
 - Watch [AVR Debugger Part 2](https://www.youtube.com/watch?v=F1202b0l5DA)
 
+[![ATtiny_HVSP-ISP_stripboard][1]][1]
+
+  [1]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_ISP_HVSP_ATtiny_symmetry_shorter_v0.0.png "ATtiny_HVSP-ISP_stripboard"
+
 
 See [More ATtiny](https://gr33nonline.wordpress.com/2023/05/12/more-attiny/) for further details.
