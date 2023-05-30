@@ -4590,7 +4590,7 @@
       <value></value>
     </diylc.semiconductors.LED>
     <diylc.passive.TrimmerPotentiometer>
-      <name>VR2</name>
+      <name>VR1</name>
       <alpha>63</alpha>
       <controlPoints>
         <point x="3.7" y="1.2999999999999994"/>
@@ -6973,7 +6973,7 @@
     <diylc.misc.Label>
       <name>LAB179</name>
       <point x="10.8" y="2.8"/>
-      <text>Bent pins &lt;br&gt;(downward)&lt;br&gt;    |         |</text>
+      <text>Bent pins &lt;br&gt;(downward)&lt;br&gt;    | </text>
       <font name="Dialog" size="14" style="0"/>
       <color hex="000000"/>
       <horizontalAlignment>CENTER</horizontalAlignment>
@@ -7584,6 +7584,36 @@
       <name>LAB240</name>
       <point x="3.0" y="4.1"/>
       <text>R12 - &gt;10k (or 0R)</text>
+      <font name="Dialog" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>LEFT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>DEFAULT</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB42</name>
+      <point x="6.1" y="2.9"/>
+      <text>DuPont Sockets --&gt;</text>
+      <font name="Dialog" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>RIGHT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>_270</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB241</name>
+      <point x="6.9" y="2.9"/>
+      <text>DuPont Sockets --&gt;</text>
+      <font name="Dialog" size="14" style="0"/>
+      <color hex="000000"/>
+      <horizontalAlignment>RIGHT</horizontalAlignment>
+      <verticalAlignment>CENTER</verticalAlignment>
+      <orientation>_270</orientation>
+    </diylc.misc.Label>
+    <diylc.misc.Label>
+      <name>LAB242</name>
+      <point x="3.0" y="4.2"/>
+      <text>VR1 - &gt;100k (or 1M)</text>
       <font name="Dialog" size="14" style="0"/>
       <color hex="000000"/>
       <horizontalAlignment>LEFT</horizontalAlignment>
