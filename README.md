@@ -14,7 +14,10 @@ Derived from the boards of [Ralph S Bacon](https://github.com/RalphBacon), [Gadg
 
 [![ATtiny_HVSP-ISP_stripboard][1]][1]
 
+[![ATtiny_HVSP-ISP_schematic][2]][2]
+
   [1]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_ISP_HVSP_ATtiny_symmetry_shorter_v0.0.png "ATtiny_HVSP-ISP_stripboard"
+  [2]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/KiCAD_files/ATtiny_Dual_HVSP_ISP_Programmer/ATtiny_Dual_HVSP_ISP_Programmer.png "ATtiny_HVSP-ISP_schematic"
 
 Various elements are taken from the different designs:
 - The ZIF socket from the Bacon design(s)
