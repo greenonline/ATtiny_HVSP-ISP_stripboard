@@ -51,6 +51,10 @@ v1.0.6.1
 
 [![ATtiny_HVSP-ISP_stripboard v1.0.6.1 - 12x12 mm Omron with 12 V booster PCB][3]][3]
 
+### Using MAX662
+
+[![ATtiny_HVSP-ISP_schematic - with MAX662][7]][7]
+
 #### 6x6 Omron with MAX662
 
 v1.0.4.7.5
@@ -69,6 +73,7 @@ v1.0.7.5
   [6]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/KiCAD_files/ATtiny_Dual_HVSP_ISP_Programmer/ATtiny_Dual_HVSP_ISP_Programmer.png "ATtiny_HVSP-ISP_schematic"
   [4]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.4.7.5.png "ATtiny_HVSP-ISP_stripboard v1.0.4.7.5 - 6x6 mm Omron with MAX662"
   [5]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.7.5.png "ATtiny_HVSP-ISP_stripboard v1.0.7.5 - 12x12 mm Omron with MAX662"
+  [7]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/KiCAD_files/ATtiny_Dual_HVSP_ISP_Programmer/ATtiny_Dual_HVSP_ISP_Programmer_with_MAX662.png "ATtiny_HVSP-ISP_schematic - with MAX662"
 
 Note:
 
