@@ -14,7 +14,7 @@ Derived from the boards of [Ralph S Bacon](https://github.com/RalphBacon), [Gadg
 
 [![ATtiny_HVSP-ISP_stripboard][1]][1]
 
-[![ATtiny_HVSP-ISP_schematic][3]][3]
+[![ATtiny_HVSP-ISP_schematic][6]][6]
 
 Various elements are taken from the different designs:
 - The ZIF socket from the Bacon design(s)
@@ -46,7 +46,11 @@ v1.0.4.6.1
 [![ATtiny_HVSP-ISP_stripboard v1.0.4.6.1 - 6x6 mm Omron with 12 V booster PCB][2]][2]
 
 #### 12x12 mm Omron with 12 V booster PCB
-Coming soon!
+
+v1.0.6.1
+
+[![ATtiny_HVSP-ISP_stripboard v1.0.6.1 - 12x12 mm Omron with 12 V booster PCB][3]][3]
+
 #### 6x6 Omron with MAX662
 
 v1.0.4.7.5
@@ -61,7 +65,8 @@ v1.0.7.5
 
   [1]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_ISP_HVSP_ATtiny_symmetry_shorter_v0.0.png "ATtiny_HVSP-ISP_stripboard"
   [2]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.4.6.1.png  "ATtiny_HVSP-ISP_stripboard v1.0.4.6.1 - 6x6 mm Omron with 12 V booster PCB"
-  [3]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/KiCAD_files/ATtiny_Dual_HVSP_ISP_Programmer/ATtiny_Dual_HVSP_ISP_Programmer.png "ATtiny_HVSP-ISP_schematic"
+  [3]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.6.1.png  "ATtiny_HVSP-ISP_stripboard v1.0.6.1 - 6x6 mm Omron with 12 V booster PCB"
+  [6]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/KiCAD_files/ATtiny_Dual_HVSP_ISP_Programmer/ATtiny_Dual_HVSP_ISP_Programmer.png "ATtiny_HVSP-ISP_schematic"
   [4]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.4.7.5.png "ATtiny_HVSP-ISP_stripboard v1.0.4.7.5 - 6x6 mm Omron with MAX662"
   [5]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.7.5.png "ATtiny_HVSP-ISP_stripboard v1.0.7.5 - 12x12 mm Omron with MAX662"
 
