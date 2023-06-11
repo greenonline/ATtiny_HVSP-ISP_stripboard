@@ -47,6 +47,17 @@ Coming soon!
 #### 12x12 mm Omron with 12 V booster PCB
 Coming soon!
 #### 6x6 Omron with MAX662
-Coming soon!
+
+[![6x6 mm Omron with MAX662][3]][3]
+
 #### 12x12 mm Omron with MAX662
-Coming soon!
+
+[![12x12 mm Omron with MAX662][4]][4]
+
+  [3]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.4.7.5.png "6x6 mm Omron with MAX662"
+  [4]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.7.5.png "12x12 mm Omron with MAX662"
+
+Note:
+
+- The 12x12 mm layouts can also be used with the 6x6 mm buttons, which would allow for 100 nF to 1 µF capacitors to be used in parallel to the buttons, for debouncing reasons.
+- If the older MAX662 is used en lieu of the later MAX662A and MAX662A+, then an additional ceramic 100 nF (C9) is required across pins 5 and 6. Note: C9 can be omitted if the newer MAX662A(+) is used, but no harm is done by leaving it there, either.
