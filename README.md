@@ -32,9 +32,13 @@ There are four basic variants of the board (although the size is constant) depen
 1. 6x6 mm or 12x12 mm Omron momentary buttons are used 
 2. The 12 V w/USB booster PCB or the MAX 662 is used
 
+The MT3608 12V w/USB booster PCB (31 x 18 mm) is available here: [MT3608 DC-DC Step Up Converter Booster Power Supply Module Boost Step-up Board MAX output 28V 2A for arduino diy kit](https://www.aliexpress.com/item/1005001622010062.html?spm=a2g0o.productlist.main.9.568ac43d7kAbTn&algo_pvid=59d1f14d-ccaf-45ca-8d25-ea006181c474&aem_p4p_detail=20230514025002602703329491940009021591&algo_exp_id=59d1f14d-ccaf-45ca-8d25-ea006181c474-4&pdp_npi=3%40dis%21GBP%210.38%210.31%21%21%21%21%21%402100bb6416840578020693389d077e%2112000016846842843%21sea%21UK%21840970582&curPageLogUid=uKbZ08D7oXeC&ad_pvid=20230514025002602703329491940009021591_1&ad_pvid=20230514025002602703329491940009021591_1)
+
+[![MT3608 12V w/USB booster PCB][8]][8]
+
 Notes:
 - Resulting from limitations of the [DIY Layout Creator software](https://github.com/bancika/diy-layout-creator), the Omron buttons can not be *accurately* visualised/represented, so instead their general location is shown and the spacing for the placement of the button varies, depending on the size of the button used (6x6 mm => 4 holes wide, 12x12 mm => 6 holes wide).
-- It is  easy to implement a single transistor high side switch, en lieu of the dual transistor configurations shown, by just omitting the NPN transistors and connecting the digital output directly to the gate of the p-channel FET. 
+- It is  easy to implement a single transistor high side switch, en lieu of the dual transistor configurations shown, by just omitting the NPN transistors and connecting the digital output directly to the gate of the p-channel FET. However, the logic of the switch would be inverted (from active `HIGH` to active `LOW`).
 - It is possible replace the p-channel FETs with PNP transistors, if desired, with a minimal amount of rework.
 
 See [More ATtiny](https://gr33nonline.wordpress.com/2023/05/12/more-attiny/) for further details.
@@ -73,7 +77,8 @@ v1.0.7.5
   [6]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/KiCAD_files/ATtiny_Dual_HVSP_ISP_Programmer/ATtiny_Dual_HVSP_ISP_Programmer.png "ATtiny_HVSP-ISP_schematic"
   [4]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.4.7.5.png "ATtiny_HVSP-ISP_stripboard v1.0.4.7.5 - 6x6 mm Omron with MAX662"
   [5]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.7.5.png "ATtiny_HVSP-ISP_stripboard v1.0.7.5 - 12x12 mm Omron with MAX662"
-  [7]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/KiCAD_files/ATtiny_Dual_HVSP_ISP_Programmer/ATtiny_Dual_HVSP_ISP_Programmer_with_MAX662.png "ATtiny_HVSP-ISP_schematic - with MAX662"
+  [7]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/KiCAD_files/ATtiny_Dual_HVSP_ISP_Programmer_with_MAX662A(+)/ATtiny_Dual_HVSP_ISP_Programmer_with_MAX662.png "ATtiny_HVSP-ISP_schematic - with MAX662"
+  [8]: https://gr33nonline3.files.wordpress.com/2023/02/mt3608-dc-dc-step-up-converter-booster.png "MT3608 12V w/USB booster PCB"
 
 Note:
 
