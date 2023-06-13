@@ -102,7 +102,8 @@ v1.0.7.5
   [5]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.7.5.png "ATtiny_HVSP-ISP_stripboard v1.0.7.5 - 12x12 mm Omron with MAX662"
   [7]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/KiCAD_files/ATtiny_Dual_HVSP_ISP_Programmer_with_MAX662A(+)/ATtiny_Dual_HVSP_ISP_Programmer_with_MAX662.png "ATtiny_HVSP-ISP_schematic - with MAX662"
   [8]: https://gr33nonline3.files.wordpress.com/2023/02/mt3608-dc-dc-step-up-converter-booster.png "MT3608 12V w/USB booster PCB"
-  [9]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.4.7.13.png "ATtiny_HVSP-ISP_stripboard v1.0.4.7.13 - 6x6 mm Omron with MAX662"
+  [9]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.4.6.6.png  "ATtiny_HVSP-ISP_stripboard v1.0.4.6.6 - 6x6 mm Omron with 12 V booster PCB"
+  [10]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.4.7.13.png "ATtiny_HVSP-ISP_stripboard v1.0.4.7.13 - 6x6 mm Omron with MAX662"
 Note:
 
 - The 12x12 mm layouts can also be used with the 6x6 mm buttons, which would allow for 100 nF to 1 µF capacitors to be used in parallel to the buttons, for debouncing reasons.
@@ -112,7 +113,9 @@ Note:
 ### Using 12 V booster PCB
 #### 6x6 mm Omron with 12 V booster PCB
 
-v1.0.4.6.3(+) - comming soon
+v1.0.4.6.6
+
+[![ATtiny_HVSP-ISP_stripboard v1.0.4.6.6 - 6x6 mm Omron with 12 V booster PCB][9]][9]
 
 #### 12x12 mm Omron with 12 V booster PCB
 
@@ -124,7 +127,7 @@ n/a
 
 v1.0.4.7.6
 
-[![ATtiny_HVSP-ISP_stripboard v1.0.4.7.13 - 6x6 mm Omron with MAX662][9]][9]
+[![ATtiny_HVSP-ISP_stripboard v1.0.4.7.13 - 6x6 mm Omron with MAX662][10]][10]
 
 #### 12x12 mm Omron with MAX662
 
