@@ -43,11 +43,19 @@ Notes:
 
 See [More ATtiny](https://gr33nonline.wordpress.com/2023/05/12/more-attiny/) for further details.
 
+There are two board sizes:
+- 100 x 160 mm => 35 strips x 61 holes (2135T)
+- 65 x 145 mm (2.5″ x 5.75″) => 24 strips x 56 holes
+
+### 100 x 160 mm => 35 strips x 61 holes
+
+These four layouts below fit on to a 100 x 160 mm => 35 strips x 61 holes (2135T) board. 
+
 #### 6x6 mm Omron with 12 V booster PCB
 
-v1.0.4.6.1
+v1.0.4.6.2
 
-[![ATtiny_HVSP-ISP_stripboard v1.0.4.6.1 - 6x6 mm Omron with 12 V booster PCB][2]][2]
+[![ATtiny_HVSP-ISP_stripboard v1.0.4.6.2 - 6x6 mm Omron with 12 V booster PCB][2]][2]
 
 #### 12x12 mm Omron with 12 V booster PCB
 
@@ -61,9 +69,9 @@ v1.0.6.1
 
 #### 6x6 Omron with MAX662
 
-v1.0.4.7.5
+v1.0.4.7.6
 
-[![ATtiny_HVSP-ISP_stripboard v1.0.4.7.5 - 6x6 mm Omron with MAX662][4]][4]
+[![ATtiny_HVSP-ISP_stripboard v1.0.4.7.6 - 6x6 mm Omron with MAX662][4]][4]
 
 #### 12x12 mm Omron with MAX662
 
@@ -72,10 +80,10 @@ v1.0.7.5
 [![ATtiny_HVSP-ISP_stripboard v1.0.7.5 - 12x12 mm Omron with MAX662][5]][5]
 
   [1]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_ISP_HVSP_ATtiny_symmetry_shorter_v0.0.png "ATtiny_HVSP-ISP_stripboard"
-  [2]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.4.6.1.png  "ATtiny_HVSP-ISP_stripboard v1.0.4.6.1 - 6x6 mm Omron with 12 V booster PCB"
+  [2]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.4.6.2.png  "ATtiny_HVSP-ISP_stripboard v1.0.4.6.2 - 6x6 mm Omron with 12 V booster PCB"
   [3]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.6.1.png  "ATtiny_HVSP-ISP_stripboard v1.0.6.1 - 6x6 mm Omron with 12 V booster PCB"
   [6]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/KiCAD_files/ATtiny_Dual_HVSP_ISP_Programmer/ATtiny_Dual_HVSP_ISP_Programmer.png "ATtiny_HVSP-ISP_schematic"
-  [4]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.4.7.5.png "ATtiny_HVSP-ISP_stripboard v1.0.4.7.5 - 6x6 mm Omron with MAX662"
+  [4]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.4.7.6.png "ATtiny_HVSP-ISP_stripboard v1.0.4.7.6 - 6x6 mm Omron with MAX662"
   [5]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.7.5.png "ATtiny_HVSP-ISP_stripboard v1.0.7.5 - 12x12 mm Omron with MAX662"
   [7]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/KiCAD_files/ATtiny_Dual_HVSP_ISP_Programmer_with_MAX662A(+)/ATtiny_Dual_HVSP_ISP_Programmer_with_MAX662.png "ATtiny_HVSP-ISP_schematic - with MAX662"
   [8]: https://gr33nonline3.files.wordpress.com/2023/02/mt3608-dc-dc-step-up-converter-booster.png "MT3608 12V w/USB booster PCB"
@@ -84,3 +92,13 @@ Note:
 
 - The 12x12 mm layouts can also be used with the 6x6 mm buttons, which would allow for 100 nF to 1 µF capacitors to be used in parallel to the buttons, for debouncing reasons.
 - If the older MAX662 is used en lieu of the later MAX662A and MAX662A+, then an additional ceramic 100 nF (C9) is required across pins 5 and 6. Note: C9 can be omitted if the newer MAX662A(+) is used, but no harm is done by leaving it there, either.
+
+### 65 x 145 mm => 24 strips x 56 holes
+
+#### 6x6 mm Omron with 12 V booster PCB
+
+v1.0.4.6.1
+
+#### 6x6 Omron with MAX662
+
+v1.0.4.7.6
