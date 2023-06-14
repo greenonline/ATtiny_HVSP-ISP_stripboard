@@ -3,11 +3,14 @@
 ## Summary
 
 This is a multi-purpose board:
-- Development board with buttons, LEDs and potentiometer for testing code
+- Development board with on-board I/O (such as buttons, LEDs and potentiometer) for testing code
 - Dual programming board:
   - ISP - Standard
   - HVSP - Fuse resetting  
 
+Features include:
+- ZIF socket
+- Breakout connections for DigiSpark/DigiStump fuse resetting
 
 ## Influences
 
@@ -23,7 +26,11 @@ Derived from the boards of [Ralph S Bacon](https://github.com/RalphBacon), [Gadg
   - [AVR-Arduino Hardware Debugger on the Cheap](https://www.youtube.com/watch?v=kI_Z78a_0y0), and; 
   - [AVR Debugger Part 2](https://www.youtube.com/watch?v=F1202b0l5DA)
 
+### Layout
+
 [![ATtiny_HVSP-ISP_stripboard][1]][1]
+
+### Schematic
 
 [![ATtiny_HVSP-ISP_schematic][6]][6]
 
@@ -44,8 +51,12 @@ Various elements are taken from the different designs:
 
 There are four basic variants of the board (although the size is constant) depending on whether:
 
-1. 6x6 mm or 12x12 mm Omron momentary buttons are used 
-2. The 12 V w/USB booster PCB or the MAX 662 is used
+1. Omron momentary button size:
+   - 6x6 mm, or;
+   - 12x12 mm  
+2. The source of the 12 V required for the HV_RESET:
+   - The MT3608 12 V w/USB booster PCB, or;
+   - MAX 662 is used
 
 The MT3608 12V w/USB booster PCB (31 x 18 mm) is available here: [MT3608 DC-DC Step Up Converter Booster Power Supply Module Boost Step-up Board MAX output 28V 2A for arduino diy kit](https://www.aliexpress.com/item/1005001622010062.html?spm=a2g0o.productlist.main.9.568ac43d7kAbTn&algo_pvid=59d1f14d-ccaf-45ca-8d25-ea006181c474&aem_p4p_detail=20230514025002602703329491940009021591&algo_exp_id=59d1f14d-ccaf-45ca-8d25-ea006181c474-4&pdp_npi=3%40dis%21GBP%210.38%210.31%21%21%21%21%21%402100bb6416840578020693389d077e%2112000016846842843%21sea%21UK%21840970582&curPageLogUid=uKbZ08D7oXeC&ad_pvid=20230514025002602703329491940009021591_1&ad_pvid=20230514025002602703329491940009021591_1)
 
@@ -82,6 +93,8 @@ v1.0.6.1
 
 ### Using MAX662
 
+#### Schematic
+
 [![ATtiny_HVSP-ISP_schematic - with MAX662][7]][7]
 
 #### 6x6 Omron with MAX662
@@ -104,7 +117,15 @@ Notes:
 
 ## Layout #2: 65 x 145 mm => 24 strips x 56 holes
 
-Note: The larger size of the 12x12 mm Omron buttons makes it rather difficult to fit a layout using them, on to a 65 x 145 mm stripboard
+This is a (horizontally) compressed version of the layout. As a result of the compression, some features available in the larger board have been either removed, or changed:
+
+- There is no longer a set of header pins (that replicate the lower side of the Arduino Uno) along the left hand side
+- The connection to the Arduino RESET pin has been moved
+- The additional (and redundant) set of sockets either side of the ZIF socket have been removed.
+- The location of the HVSP breakout sockets (for DigiSpark/DigiStump fuse resetting) has been changed - these connections are shown as red
+- The space for adding optional capacitors for debouncing SW1 and SW2 has been removed
+
+Note: The larger size of the 12x12 mm Omron buttons makes it rather difficult to fit a layout using them, on to a 65 x 145 mm stripboard. Hence, there are no *compressed* layouts for 12x12 mm Omron buttons
 
 ### Using 12 V booster PCB
 #### 6x6 mm Omron with 12 V booster PCB
