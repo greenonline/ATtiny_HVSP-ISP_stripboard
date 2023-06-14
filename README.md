@@ -69,7 +69,7 @@ Notes:
 
 See [More ATtiny](https://gr33nonline.wordpress.com/2023/05/12/more-attiny/) for further details.
 
-There are two board sizes:
+These layouts are designed to fit two (commonly avaiable) stripboard sizes:
 - 100 x 160 mm => 35 strips x 61 holes (2135T)
 - 65 x 145 mm (2.5″ x 5.75″) => 24 strips x 56 holes
 
