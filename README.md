@@ -34,9 +34,11 @@ Various elements are taken from the different designs:
 - Use of MAX662 in place of the 12 V booster PCB from Wayne Holder (see [ATTiny10 C IDE and Improved Device Programmer](https://sites.google.com/site/wayneholder/attiny10-c-ide-and-improved-device-programmer))
 - The simplified high side switching from the Holder design(s)
 - Plus some other elements taken from some commerical boards:
-  - The "dev-board" I/O functionality (included LEDs and buttons and trim pot for ADC), taken from these two boards:
+  - The "dev-board" I/O functionality (included LEDs, buttons and trim pot for ADC), taken from these two boards:
      - [New Attiny13 AVR Developments Board Module Learning Experiment Board Develop Test Boards with USB Power Cable for Attiny 13 AVR](https://www.aliexpress.com/item/1005002801247155.html?spm=a2g0o.productlist.main.1.55c67a5eZb77Wy&algo_pvid=2a8ca812-60f9-4822-b005-fc71373366a5&algo_exp_id=2a8ca812-60f9-4822-b005-fc71373366a5-0&pdp_npi=3%40dis%21GBP%214.23%213.81%21%21%21%21%21%402100b69816848452643623796d0788%2112000022251128135%21sea%21UK%21840970582&curPageLogUid=wQBA2SYfNF9K)
      - [Attiny13 AVR Development Board Learning Board Experimental Test Boards](https://www.aliexpress.com/item/32813240677.html?spm=a2g0o.productlist.main.11.55c67a5eae9WTW&algo_pvid=2a8ca812-60f9-4822-b005-fc71373366a5&algo_exp_id=2a8ca812-60f9-4822-b005-fc71373366a5-5&pdp_npi=3%40dis%21GBP%213.36%213.36%21%21%21%21%21%402100b69816848452643623796d0788%2164617970276%21sea%21UK%21840970582&curPageLogUid=9LjSDDicM1P4)
+
+[![Attiny13 AVR Development Board Learning Board Experimental Test Boards][11]][11]
 
 ## Variants
 
@@ -94,17 +96,8 @@ v1.0.7.5
 
 [![ATtiny_HVSP-ISP_stripboard v1.0.7.5 - 12x12 mm Omron with MAX662][5]][5]
 
-  [1]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_ISP_HVSP_ATtiny_symmetry_shorter_v0.0.png "ATtiny_HVSP-ISP_stripboard"
-  [2]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.4.6.2.png  "ATtiny_HVSP-ISP_stripboard v1.0.4.6.2 - 6x6 mm Omron with 12 V booster PCB"
-  [3]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.6.1.png  "ATtiny_HVSP-ISP_stripboard v1.0.6.1 - 6x6 mm Omron with 12 V booster PCB"
-  [6]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/KiCAD_files/ATtiny_Dual_HVSP_ISP_Programmer/ATtiny_Dual_HVSP_ISP_Programmer.png "ATtiny_HVSP-ISP_schematic"
-  [4]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.4.7.6.png "ATtiny_HVSP-ISP_stripboard v1.0.4.7.6 - 6x6 mm Omron with MAX662"
-  [5]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.7.5.png "ATtiny_HVSP-ISP_stripboard v1.0.7.5 - 12x12 mm Omron with MAX662"
-  [7]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/KiCAD_files/ATtiny_Dual_HVSP_ISP_Programmer_with_MAX662A(+)/ATtiny_Dual_HVSP_ISP_Programmer_with_MAX662.png "ATtiny_HVSP-ISP_schematic - with MAX662"
-  [8]: https://gr33nonline3.files.wordpress.com/2023/02/mt3608-dc-dc-step-up-converter-booster.png "MT3608 12V w/USB booster PCB"
-  [9]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.4.6.6.png  "ATtiny_HVSP-ISP_stripboard v1.0.4.6.6 - 6x6 mm Omron with 12 V booster PCB"
-  [10]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.4.7.13.png "ATtiny_HVSP-ISP_stripboard v1.0.4.7.13 - 6x6 mm Omron with MAX662"
-Note:
+
+Notes:
 
 - The 12x12 mm layouts can also be used with the 6x6 mm buttons, which would allow for 100 nF to 1 µF capacitors to be used in parallel to the buttons, for debouncing reasons.
 - If the older MAX662 is used en lieu of the later MAX662A and MAX662A+, then an additional ceramic 100 nF (C9) is required across pins 5 and 6. Note: C9 can be omitted if the newer MAX662A(+) is used, but no harm is done by leaving it there, either.
@@ -132,3 +125,16 @@ v1.0.4.7.6
 #### 12x12 mm Omron with MAX662
 
 n/a
+
+
+  [1]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_ISP_HVSP_ATtiny_symmetry_shorter_v0.0.png "ATtiny_HVSP-ISP_stripboard"
+  [2]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.4.6.2.png  "ATtiny_HVSP-ISP_stripboard v1.0.4.6.2 - 6x6 mm Omron with 12 V booster PCB"
+  [3]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.6.1.png  "ATtiny_HVSP-ISP_stripboard v1.0.6.1 - 6x6 mm Omron with 12 V booster PCB"
+  [6]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/KiCAD_files/ATtiny_Dual_HVSP_ISP_Programmer/ATtiny_Dual_HVSP_ISP_Programmer.png "ATtiny_HVSP-ISP_schematic"
+  [4]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.4.7.6.png "ATtiny_HVSP-ISP_stripboard v1.0.4.7.6 - 6x6 mm Omron with MAX662"
+  [5]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.7.5.png "ATtiny_HVSP-ISP_stripboard v1.0.7.5 - 12x12 mm Omron with MAX662"
+  [7]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/KiCAD_files/ATtiny_Dual_HVSP_ISP_Programmer_with_MAX662A(+)/ATtiny_Dual_HVSP_ISP_Programmer_with_MAX662.png "ATtiny_HVSP-ISP_schematic - with MAX662"
+  [8]: https://gr33nonline3.files.wordpress.com/2023/02/mt3608-dc-dc-step-up-converter-booster.png "MT3608 12V w/USB booster PCB"
+  [9]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.4.6.6.png  "ATtiny_HVSP-ISP_stripboard v1.0.4.6.6 - 6x6 mm Omron with 12 V booster PCB"
+  [10]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.4.7.13.png "ATtiny_HVSP-ISP_stripboard v1.0.4.7.13 - 6x6 mm Omron with MAX662"
+  [11]: https://gr33nonline3.files.wordpress.com/2023/02/attiny-dev-board.png "Attiny13 AVR Development Board Learning Board Experimental Test Boards"
