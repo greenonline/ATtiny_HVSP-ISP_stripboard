@@ -2,7 +2,7 @@
 
 ## Summary
 
-This is a multi-purpose board:
+This is a multi-purpose board, for DIP-8 ATtiny ICs, designed to be used in conjunction with an Arduino Uno:
 - Development board with on-board I/O (such as buttons, LEDs and potentiometer) for testing code
 - Dual programming board:
   - ISP - Standard
@@ -10,7 +10,17 @@ This is a multi-purpose board:
 
 Features include:
 - ZIF socket
-- Breakout connections for DigiSpark/DigiStump fuse resetting
+- Breakout connections for DigiSpark/DigiStump fuse resetting (HVSP)
+- On-board 10 µF electroytic (for Arduino RESET supression)
+
+Note that even though this board is designed with the Arduino Uno in mind, it is ***not*** an Arduino Uno "shield", due to its size - although, apart from the `5V` and `RESET` pins, it *could* (at a pinch) be fitted into the header for pins `D8` to `D13`. Note that D7 would require a "bent" header pin, due to the unorthodox layout of the Arduino Uno.
+
+The board can also be used with other Arduino boards, so long as the pins are connected appropriately.
+
+The 16 pin ZIF socket is *logically* split into two:
+
+- The top half (pins 1-4 and pin 13-16) are used as an ISP and for the dev-board
+- The bottom half (pins 5-8 and 9-12) are used exclusively for HVSP
 
 ## Influences
 
