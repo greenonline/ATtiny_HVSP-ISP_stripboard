@@ -103,6 +103,9 @@ Notes:
 - If the older MAX662 is used en lieu of the later MAX662A and MAX662A+, then an additional ceramic 100 nF (C9) is required across pins 5 and 6. Note: C9 can be omitted if the newer MAX662A(+) is used, but no harm is done by leaving it there, either.
 
 ## Layout #2: 65 x 145 mm => 24 strips x 56 holes
+
+Note: The larger size of the 12x12 mm Omron buttons makes it rather difficult to fit a layout using them, on to a 65 x 145 mm stripboard
+
 ### Using 12 V booster PCB
 #### 6x6 mm Omron with 12 V booster PCB
 
