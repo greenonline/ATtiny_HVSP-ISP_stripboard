@@ -146,7 +146,9 @@ v1.0.4.6.6
 
 #### 12x12 mm Omron with 12 V booster PCB
 
-n/a
+v1.0.6.5
+
+[![ATtiny_HVSP-ISP_stripboard v1.0.6.5 - 12x12 mm Omron with 12 V booster PCB][12]][12]
 
 ### Using MAX662
 
@@ -172,3 +174,4 @@ n/a
   [9]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.4.6.6.png  "ATtiny_HVSP-ISP_stripboard v1.0.4.6.6 - 6x6 mm Omron with 12 V booster PCB"
   [10]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.4.7.13.png "ATtiny_HVSP-ISP_stripboard v1.0.4.7.13 - 6x6 mm Omron with MAX662"
   [11]: https://gr33nonline3.files.wordpress.com/2023/02/attiny-dev-board.png "Attiny13 AVR Development Board Learning Board Experimental Test Boards"
+  [12]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.6.5.png  "ATtiny_HVSP-ISP_stripboard v1.0.6.5 - 6x6 mm Omron with 12 V booster PCB"
