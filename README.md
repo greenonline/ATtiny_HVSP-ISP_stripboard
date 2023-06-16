@@ -135,7 +135,7 @@ This is a (horizontally) compressed version of the layout. As a result of the co
 - The location of the HVSP breakout sockets (for DigiSpark/DigiStump fuse resetting) has been changed - these connections are shown as red
 - The space for adding optional capacitors for debouncing SW1 and SW2 has been removed
 
-Note: The larger size of the 12x12 mm Omron buttons makes it rather difficult to fit a layout using them, on to a 65 x 145 mm stripboard. Hence, there are no *compressed* layouts for 12x12 mm Omron buttons
+Note: The larger size of the 12x12 mm Omron buttons makes it rather difficult to fit a layout using them, on to a 65 x 145 mm stripboard. Hence, the  *compressed* layouts for 12x12 mm Omron buttons are significantly different layouts.
 
 ### Using 12 V booster PCB
 #### 6x6 mm Omron with 12 V booster PCB
@@ -160,7 +160,18 @@ v1.0.4.7.6
 
 #### 12x12 mm Omron with MAX662
 
-n/a
+1.0.7.8.1
+
+[![ATtiny_HVSP-ISP_stripboard v1.0.7.8.1 - 12x12 mm Omron with MAX662][13]][13]
+
+## Layout #3: 65 x 145 mm => 24 strips x 61 holes
+
+#### 12x12 mm Omron with MAX662
+
+1.0.7.6
+
+***Image!!!!***
+
 
 
   [1]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_ISP_HVSP_ATtiny_symmetry_shorter_v0.0.png "ATtiny_HVSP-ISP_stripboard"
@@ -175,3 +186,4 @@ n/a
   [10]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.4.7.13.png "ATtiny_HVSP-ISP_stripboard v1.0.4.7.13 - 6x6 mm Omron with MAX662"
   [11]: https://gr33nonline3.files.wordpress.com/2023/02/attiny-dev-board.png "Attiny13 AVR Development Board Learning Board Experimental Test Boards"
   [12]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.6.5.png  "ATtiny_HVSP-ISP_stripboard v1.0.6.5 - 6x6 mm Omron with 12 V booster PCB"
+  [13]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.7.8.1.png "ATtiny_HVSP-ISP_stripboard v1.0.7.8.1 - 12x12 mm Omron with MAX662"
