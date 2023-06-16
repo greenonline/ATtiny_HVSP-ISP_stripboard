@@ -79,13 +79,17 @@ Notes:
 
 See [More ATtiny](https://gr33nonline.wordpress.com/2023/05/12/more-attiny/) for further details.
 
-These layouts are designed to fit two (commonly avaiable) stripboard sizes:
-- 100 x 160 mm => 35 strips x 61 holes (2135T)
+The initial layouts (**layout#1**) are are 19 strips x 65 holes - which don't fit *any* commonly available near sized board.
+
+Two further layouts (**layout#2** and **layout#3**) are designed to fit two (commonly avaiable) stripboard sizes:
+
 - 65 x 145 mm (2.5″ x 5.75″) => 24 strips x 56 holes
+- 100 x 160 mm => 35 strips x 61 holes (2135T)
 
-## Layout #1:  100 x 160 mm => 35 strips x 61 holes
+## Layout #1: 19 strips x 65 holes
 
-These four layouts below fit on to a 100 x 160 mm => 35 strips x 61 holes (2135T) board. 
+These four layouts are 19 strips x 65 holes - which doesn't fit *any* commonly available near sized board. 
+
 
 ### Using 12 V booster PCB
 
@@ -107,7 +111,7 @@ v1.0.6.1
 
 [![ATtiny_HVSP-ISP_schematic - with MAX662][7]][7]
 
-#### 6x6 Omron with MAX662
+#### 6x6 mm Omron with MAX662
 
 v1.0.4.7.6
 
@@ -126,6 +130,8 @@ Notes:
 - If the older MAX662 is used en lieu of the later MAX662A and MAX662A+, then an additional ceramic 100 nF (C9) is required across pins 5 and 6. Note: C9 can be omitted if the newer MAX662A(+) is used, but no harm is done by leaving it there, either.
 
 ## Layout #2: 65 x 145 mm => 24 strips x 56 holes
+
+These four layouts below fit on to a 65 x 145 mm stripboard, that is to say 24 strips x 56 holes.
 
 This is a (horizontally) compressed version of the layout. As a result of the compression, some features available in the larger board have been either removed, or changed:
 
@@ -152,7 +158,7 @@ v1.0.6.5
 
 ### Using MAX662
 
-#### 6x6 Omron with MAX662
+#### 6x6 mm Omron with MAX662
 
 v1.0.4.7.6
 
@@ -164,7 +170,9 @@ v1.0.4.7.6
 
 [![ATtiny_HVSP-ISP_stripboard v1.0.7.8.1 - 12x12 mm Omron with MAX662][13]][13]
 
-## Layout #3: 65 x 145 mm => 24 strips x 61 holes
+## Layout #3: 100 x 160 mm => 35 strips x 61 holes
+
+These four layouts below fit on to a 100 x 160 mm stripboard, that is to say 35 strips x 61 holes.
 
 #### 12x12 mm Omron with MAX662
 
