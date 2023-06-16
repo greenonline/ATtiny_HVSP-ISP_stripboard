@@ -178,7 +178,7 @@ These four layouts below fit on to a 100 x 160 mm stripboard, that is to say 35 
 
 1.0.7.6
 
-***Image!!!!***
+[![ATtiny_HVSP-ISP_stripboard v1.0.7.6 - 12x12 mm Omron with MAX662][17]][17]
 
 
 
@@ -195,3 +195,4 @@ These four layouts below fit on to a 100 x 160 mm stripboard, that is to say 35 
   [11]: https://gr33nonline3.files.wordpress.com/2023/02/attiny-dev-board.png "Attiny13 AVR Development Board Learning Board Experimental Test Boards"
   [12]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.6.5.png  "ATtiny_HVSP-ISP_stripboard v1.0.6.5 - 6x6 mm Omron with 12 V booster PCB"
   [13]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.7.8.1.png "ATtiny_HVSP-ISP_stripboard v1.0.7.8.1 - 12x12 mm Omron with MAX662"
+  [17]: https://github.com/greenonline/ATtiny_HVSP-ISP_stripboard/blob/main/DIYLC_files/Dual_HVSP_ATtiny_v1.0.7.6.png "ATtiny_HVSP-ISP_stripboard v1.0.7.6 - 12x12 mm Omron with MAX662"
