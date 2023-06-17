@@ -79,9 +79,12 @@ Notes:
 
 See [More ATtiny](https://gr33nonline.wordpress.com/2023/05/12/more-attiny/) for further details.
 
-The initial layouts (**layout#1**) are are 19 strips x 65 holes - which don't fit *any* commonly available near sized board.
+The initial layouts (**layout#1**) are are 19 strips x 65 holes - which don't fit *any* commonly available similarly sized board. Hugely oversized boards would be required, such as
 
-Two further layouts (**layout#2** and **layout#3**) are designed to fit two (commonly avaiable) stripboard sizes:
+- 100 x 240 mm => 36 strips x 92 holes ( )
+- 100 x 250 mm => 35 strips x 96 holes (3360T)
+
+Two further layouts (**layout#2** and **layout#3**) are designed to fit two (commonly available) more modest stripboard sizes:
 
 - 65 x 145 mm (2.5″ x 5.75″) => 24 strips x 56 holes
 - 100 x 160 mm => 35 strips x 61 holes (2135T)
