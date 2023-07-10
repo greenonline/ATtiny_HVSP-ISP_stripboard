@@ -173,6 +173,8 @@ v1.0.4.7.6
 
 [![ATtiny_HVSP-ISP_stripboard v1.0.7.8.1 - 12x12 mm Omron with MAX662][13]][13]
 
+Note that the hole cuts along the left hand edge of the board are not required - a leftover from previous wider designs.
+
 ## Layout #3: 100 x 160 mm => 35 strips x 61 holes
 
 These four layouts below fit on to a 100 x 160 mm stripboard, that is to say 35 strips x 61 holes.
